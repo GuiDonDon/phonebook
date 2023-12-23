@@ -7,4 +7,4 @@ if __name__ == '__main__':
     contact_list = phonebook.phone_data(contact_list)
     contact_list = phonebook.process_contact_list(contact_list)
     new_db_path = "db/phonebook.csv"
-    phonebook.save_process_contacts(new_db_path, contact_list)
+    phonebook.save_contacts_data(new_db_path, contact_list)
